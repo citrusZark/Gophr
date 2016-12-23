@@ -1,0 +1,34 @@
+{{define "users/edit"}}
+<div class="container clearfix">
+  <div class="panel panel-default nobottommargin" style="max-width: 500px; margin: auto;">
+		<div class="panel-body" style="padding: 40px;">
+      {{with .Error}}
+      <h1 data-animate="shake"><span>Your Details</span></h1>
+      <div class="style-msg errormsg" role="alert" data-animate="shake">
+        <div class="sb-msg"><i class="icon-info-sign"></i>{{.}}</div>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <form action="/account" method="post" data-animate="shake">
+        {{else}}
+        <h1 data-animate="swing"><span>Your Details</span></h1>
+        <form action="/account" method="post" data-animate="fadeInLeft">
+        {{end}}
+        <div class="form-group">
+          <label for="newEmail">Email</label>
+          <input type="text" name="email" value="{{.User.Email}}" id="email" class="form-control">
+        </div>
+        <h2><span>Change Password</span><small>optional</small></h2>
+        <div class="form-group">
+          <label for="currentPassword">Current Password</label>
+          <input type="password" name="currentPassword" id="currentPassword" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="newPassword">New Password</label>
+          <input type="password" name="newPassword" id="newPassword" class="form-control">
+        </div>
+        <input type="submit" value="Save" class="button button-3d button-rounded button-teal">
+      </form>
+    </div>
+  </div>
+</div>
+{{end}}

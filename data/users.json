@@ -1,0 +1,28 @@
+{
+   "Users": {
+      "usr_DJ6HL982d5wjFjTT": {
+         "ID": "usr_DJ6HL982d5wjFjTT",
+         "Email": "pangeran@outlook.com",
+         "HashedPassword": "$2a$10$6.C2WK8LxPd/w2nHt.CHDO5Bh4OC0yEjDnAtapD5BAyeYCIFzR/Ba",
+         "UserName": "citruszark"
+      },
+      "usr_Xyg99DiYLd43gijw": {
+         "ID": "usr_Xyg99DiYLd43gijw",
+         "Email": "sonyarahmawaty@ymail.com",
+         "HashedPassword": "$2a$10$7iQJBKnJY9Th4fzCj6QQge2PdiqRL6r5.QqIWGJIHq0URVLPdn9Lq",
+         "UserName": "sonyaade"
+      },
+      "usr_hHoWd5P1gIh8Rdtc": {
+         "ID": "usr_hHoWd5P1gIh8Rdtc",
+         "Email": "qwinngle@furrr.xzy",
+         "HashedPassword": "$2a$10$g9Qoh7otajquIC9mXBPHCepudwBQV8iBr8Or/1Wv4pSjjR9zNGwIq",
+         "UserName": "Gwinggle"
+      },
+      "usr_io4tgE2UqIafv7vj": {
+         "ID": "usr_io4tgE2UqIafv7vj",
+         "Email": "exedraw@gmail.com",
+         "HashedPassword": "$2a$10$DD3DXiviZmswYgPvNxarU.AWdH2ZZvF9pWOWh3.KA1qoLxCmuh0j6",
+         "UserName": "boredpanda"
+      }
+   }
+}

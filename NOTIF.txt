@@ -1,0 +1,1 @@
+1. images/home.html automatically call method ShowRoute and StaticRoute of Image in image.go

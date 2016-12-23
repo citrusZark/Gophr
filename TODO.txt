@@ -1,0 +1,7 @@
+1. Return multiple ValidationError
+2. Both FileUserStore and SessionUserStore contain some duplicate code, the
+writing to, and reading from, a file. Try and create a FileStore type that encap-
+sulates this logic, and have both FileUserStore and FileSessionStore use it.
+3. Add different flash message types to distinguish between success, warnings, and
+errors. Bootstrap has different colored alert boxes for each type.
+4. Error Page

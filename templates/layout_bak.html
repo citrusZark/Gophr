@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	</head>
+	<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Gophr</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<p class="navbar-text navbar-right">
+					{{if .CurrentUser}}
+					<a href="/account" class="navbar-link">Account</a> |
+					<a href="/sign-out" class="navbar-link">Sign Out</a>
+					{{else}}
+					<a href="/register" class="navbar-link">Register</a> |
+					<a href="/login" class="navbar-link">Login</a>
+					{{end}}
+				</p>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		{{if .Flash}}
+			<div class="alert alert-info alert-dismissible" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				{{.Flash}}
+			</div>
+		{{end}}
+		{{ yield }}
+		</div>
+	</body>
+	<script src="/assets/js/jquery.js" charset="utf-8"></script>
+	<script src="/assets/js/bootstrap.min.js" charset="utf-8"></script>
+</html>

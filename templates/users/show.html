@@ -1,0 +1,24 @@
+{{define "users/show"}}
+<div class="container clearfix">
+  <div class="row">
+    <div class="col-md-12 col-xd-12">
+      <div class="media">
+        <a href="{{.User.ImagesRoute}}" class="pull-left">
+          <img src="{{.User.AvatarURL}}" alt="{{.User.UserName}}" />
+        </a>
+        <div class="media-body">
+          <h1 class="media-heading">
+            {{.User.UserName}}
+            {{if .CurrentUser}}
+            {{if eq .User.ID .CurrentUser.ID}}
+            <small>(this is you)</small>
+            {{end}}
+            {{end}}
+          </h1>
+        </div>
+      </div>
+    </div>
+</div>
+{{template "images/index" .}}
+</div>
+{{end}}
