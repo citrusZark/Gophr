@@ -62,8 +62,9 @@
 
 							</li>
               {{if .CurrentUser}}
-              <li><a href="/account"><div>{{.CurrentUser.UserName}}</div></a>
+              <li><a href="#"><div>{{.CurrentUser.UserName}}</div></a>
 								<ul>
+									<li><a href="/account"><div>Profile</div></a></li>
 									<li><a href="/images/new"><div>Add Image</div></a></li>
 									<li><a href="/sign-out"><div>Sign Out</div></a></li>
 								</ul>
@@ -169,7 +170,7 @@
 
 						<div class="widget clearfix">
 							<h4>Instagram Photos</h4>
-							
+
 						</div>
 
 					</div>

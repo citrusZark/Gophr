@@ -1,3 +1,14 @@
 {
-   "Sessions": {}
+   "Sessions": {
+      "sess_A1OnYHdWmzYXE7LA00q8": {
+         "ID": "sess_A1OnYHdWmzYXE7LA00q8",
+         "UserID": "usr_DJ6HL982d5wjFjTT",
+         "Expiry": "2016-12-26T15:36:47.9637911+07:00"
+      },
+      "sess_UXZd8wRXakzjPDviJcRf": {
+         "ID": "sess_UXZd8wRXakzjPDviJcRf",
+         "UserID": "usr_DJ6HL982d5wjFjTT",
+         "Expiry": "2016-11-17T19:17:31.7599445+07:00"
+      }
+   }
 }
