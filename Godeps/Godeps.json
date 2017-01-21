@@ -1,6 +1,61 @@
 {
-	"ImportPath": ".",
+	"ImportPath": "Gophr",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v77",
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "github.com/disintegration/imaging",
+			"Rev": "243d2d8673c1225a6afceeb9b3b4423d485dc8df"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-41-g8a45e95",
+			"Rev": "8a45e95fc75cb77048068a62daed98cc22fdac7c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "b8a2a83acfe6e6770b75de42d5ff4c67596675c0"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "b8a2a83acfe6e6770b75de42d5ff4c67596675c0"
+		},
+		{
+			"ImportPath": "golang.org/x/image/bmp",
+			"Rev": "83686c547965220f8b5d75e83ddc67d73420a89f"
+		},
+		{
+			"ImportPath": "golang.org/x/image/tiff",
+			"Rev": "83686c547965220f8b5d75e83ddc67d73420a89f"
+		},
+		{
+			"ImportPath": "golang.org/x/image/tiff/lzw",
+			"Rev": "83686c547965220f8b5d75e83ddc67d73420a89f"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/json",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.08.01-5-g3f83fa5",
+			"Rev": "3f83fa5005286a7fe593b055f0d7771a7dce4655"
+		}
+	]
 }
